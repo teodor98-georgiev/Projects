@@ -81,6 +81,67 @@ Dynamically update the cache capacity (setCapacity).
 7. # Organizing employees by department
 building a simple HR management system. The system needs to store employees, categorize them by their department, and sort them by seniority (years of experience) within each department.
 
+8. # Organizing students by grade
+Student Management System 
+📘 Overview
+This is a Student Management System developed in Java, demonstrating Object-Oriented Programming (OOP) principles such as abstraction, inheritance, encapsulation, and polymorphism.
+
+The system allows:
+
+Managing student information and course grades
+
+Sorting students by average grade
+
+Grouping students by grade range (A–D) or major (extendable)
+
+Organizing data using HashMap, List, and interfaces for flexibility
+
+🧩 Architecture
+🔹 Abstract Class: Person
+Common base class for all people in the system.
+
+Contains basic fields: name, surname, and id.
+
+Declares an abstract method: getFullName().
+
+🔹 Concrete Class: Student (extends Person)
+Adds specific fields: major, year, and courseGrades (HashMap<String, Integer>).
+
+Implements:
+
+addGrade(String course, int grade)
+
+removeGrade(String course)
+
+getAvgGrade()
+
+sortCoursesByGrade() (by course grade)
+
+getFullName() override
+
+🔹 Interface: Sortable
+Defines sorting and grouping capabilities:
+
+sortByAvgGrade()
+
+groupStudentsByGradeRange()
+
+🔹 Class: StudentManager (implements Sortable)
+Maintains a list of Student objects.
+
+Implements:
+
+addStudent(Student student)
+
+removeStudent(Student student)
+
+sortByAvgGrade() — using a custom Comparator
+
+groupStudentsByGradeRange() — categorizes students into A/B/C/D grade bands
+
+🔹 Comparator: avgGradeComp
+Implements Comparator<Student> to compare students based on average grade.
+
 8. # LinkedList
 9. Implements a custom singly linked list in Java with a built-in iterator. It replicates several common functionalities found in Java's standard LinkedList class, such as adding, removing, checking containment, retrieving elements, and iteration. This serves as a learning tool or as a foundational data structure for educational or lightweight purposes.
 

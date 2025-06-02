@@ -76,7 +76,10 @@ Retrieve a value by key (get)
 
 Insert or update a key-value pair (put)
 
-Dynamically update the cache capacity (setCapacity)
+Dynamically update the cache capacity (setCapacity).
 
-7. # LinkedList
-8. Implements a custom singly linked list in Java with a built-in iterator. It replicates several common functionalities found in Java's standard LinkedList class, such as adding, removing, checking containment, retrieving elements, and iteration. This serves as a learning tool or as a foundational data structure for educational or lightweight purposes.
+7. # Organizing employees by department
+building a simple HR management system. The system needs to store employees, categorize them by their department, and sort them by seniority (years of experience) within each department.
+
+8. # LinkedList
+9. Implements a custom singly linked list in Java with a built-in iterator. It replicates several common functionalities found in Java's standard LinkedList class, such as adding, removing, checking containment, retrieving elements, and iteration. This serves as a learning tool or as a foundational data structure for educational or lightweight purposes.

@@ -26,3 +26,20 @@ Russia switched from the **Julian** to **Gregorian** calendar in **1918**, where
 ### Output Format
 
 Return the 256th day in the format: `dd.mm.yyyy
+
+# Encryption Task
+## Description
+
+This task is to implement a text encryption function based on a specific grid-based scheme. The goal is to encode a given lowercase English string using a transformation that involves arranging characters in a grid and then reading them column-wise.
+
+## Problem Summary
+
+Given a string `s`:
+1. **Remove all spaces** from the input string.
+2. Compute the length `L` of the resulting string.
+3. Determine the number of **rows and columns** for a grid such that:
+   - `floor(sqrt(L)) <= rows <= columns <= ceil(sqrt(L))`
+   - `rows * columns >= L`
+   - Among all possible grid sizes, choose the one with the **smallest area** (minimum `rows * columns`)
+4. **Fill the grid row-wise** with the characters of the processed string.
+5. **Read the grid column-wise**, joining characters from top to bottom and separating columns with spaces.

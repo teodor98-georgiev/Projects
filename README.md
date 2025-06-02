@@ -83,3 +83,14 @@ building a simple HR management system. The system needs to store employees, cat
 
 8. # LinkedList
 9. Implements a custom singly linked list in Java with a built-in iterator. It replicates several common functionalities found in Java's standard LinkedList class, such as adding, removing, checking containment, retrieving elements, and iteration. This serves as a learning tool or as a foundational data structure for educational or lightweight purposes.
+
+11. # University Course Management System
+Overview
+This project implements a basic University Course Management System using Java and Object-Oriented Programming (OOP) principles. It models the core components of a university — students, professors, and courses — and provides functionality for managing relationships between them.
+
+Key Concepts
+Inheritance and Abstraction through the Person abstract class.
+
+Interfaces for pay calculation (Payable) and custom sorting (Comparable and Comparator).
+
+Java Collections such as HashMap and List to manage and organize data.

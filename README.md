@@ -1,3 +1,21 @@
+# Strange Counter
+## Problem Summary
+
+A strange counter starts at 3 and counts down to 1. When it reaches 1, the counter resets to double the previous cycle's start value and begins counting down again.
+
+The counter sequence behaves as follows:
+
+- Cycle 1: starts at `t = 1`, displays `3, 2, 1`
+- Cycle 2: starts at `t = 4`, displays `6, 5, 4, 3, 2, 1`
+- Cycle 3: starts at `t = 10`, displays `12, ..., 1`
+- And so on...
+
+Each cycle's starting value doubles from the previous one: 3 → 6 → 12 → 24...
+
+## Task
+
+Implement a function that computes the value displayed by the counter at a given time `t`.
+
 # Diagonal Difference
 ## Problem Statement
 

@@ -61,3 +61,6 @@ Given a string `s`:
    - Among all possible grid sizes, choose the one with the **smallest area** (minimum `rows * columns`)
 4. **Fill the grid row-wise** with the characters of the processed string.
 5. **Read the grid column-wise**, joining characters from top to bottom and separating columns with spaces.
+
+6. # LinkedList
+7. Implements a custom singly linked list in Java with a built-in iterator. It replicates several common functionalities found in Java's standard LinkedList class, such as adding, removing, checking containment, retrieving elements, and iteration. This serves as a learning tool or as a foundational data structure for educational or lightweight purposes.

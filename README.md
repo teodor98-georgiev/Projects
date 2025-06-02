@@ -62,5 +62,21 @@ Given a string `s`:
 4. **Fill the grid row-wise** with the characters of the processed string.
 5. **Read the grid column-wise**, joining characters from top to bottom and separating columns with spaces.
 
-6. # LinkedList
-7. Implements a custom singly linked list in Java with a built-in iterator. It replicates several common functionalities found in Java's standard LinkedList class, such as adding, removing, checking containment, retrieving elements, and iteration. This serves as a learning tool or as a foundational data structure for educational or lightweight purposes.
+6. # LRU Cache Implementation in Java
+Overview
+This project implements a Least Recently Used (LRU) Cache in Java using LinkedHashMap as the base data structure. The cache automatically evicts the least recently accessed item once it exceeds its capacity.
+
+The implementation follows the design of the LruCache interface, with DefaultLruCache providing the concrete functionality.
+
+Task Description
+Goal
+Create a class DefaultLruCache that implements an LRU cache with the following operations:
+
+Retrieve a value by key (get)
+
+Insert or update a key-value pair (put)
+
+Dynamically update the cache capacity (setCapacity)
+
+7. # LinkedList
+8. Implements a custom singly linked list in Java with a built-in iterator. It replicates several common functionalities found in Java's standard LinkedList class, such as adding, removing, checking containment, retrieving elements, and iteration. This serves as a learning tool or as a foundational data structure for educational or lightweight purposes.

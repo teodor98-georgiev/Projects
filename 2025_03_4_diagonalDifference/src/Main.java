@@ -63,7 +63,7 @@ public class Main {
     public static int diagonalDifference(List<List<Integer>> arr) {
         List<Integer> descDiag = new ArrayList<>();
         List<Integer> ascDiag = new ArrayList<>();
-        // iterating over desc diagonal
+        // iterating over desc diagonal top left - bottom right
         for (int r = 0; r < arr.size(); r++){
             for (int c = 0; c < arr.size(); c++){
                 if (r == c){
@@ -71,7 +71,7 @@ public class Main {
                 }
             }
         }
-
+       // iterating over asc diag bottom left - top right
         for (int r = 0; r < arr.size(); r++){
             for (int c = arr.size() - 1; c >= 0; c--){
                 if (c == arr.size() - 1 - r){
@@ -79,7 +79,7 @@ public class Main {
                 }
             }
         }
-
+     
         int sumDesc = 0;
         int sumAsc = 0;
         int absSum;

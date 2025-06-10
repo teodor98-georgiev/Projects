@@ -1,5 +1,5 @@
-### *Strange Counter*
-# Problem Summary
+# *Strange Counter*
+### Problem Summary
 
 A strange counter starts at 3 and counts down to 1. When it reaches 1, the counter resets to double the previous cycle's start value and begins counting down again.
 
